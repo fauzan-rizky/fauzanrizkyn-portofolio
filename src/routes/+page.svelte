@@ -6,7 +6,7 @@
     import "../global.css";
 </script>
 
-<Home>
+    <Home>
     
 </Home>
 <About>
