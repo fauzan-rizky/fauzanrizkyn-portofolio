@@ -7,8 +7,6 @@
 
     import azuma from "../lib/images/azuma.webp"
     import fauzan from "../lib/images/ojanhacker.webp"
-    
-    import Sections from "./sections.svelte";
 </script>
 
 <div class="sections">
@@ -59,7 +57,7 @@
     #Home {
         display: flex;
         width: 75%;
-        height: 75%;
+        height: 65%;
 
         max-width: 1440px;
         max-height: 810px;
@@ -81,10 +79,9 @@
     }
    
     #profile-container {
-        padding: 10%;
         display: flex;
-        align-items: center;
-        justify-content: center;
+        justify-content: end;
+        width: 50%;
     }
 
     #profile {

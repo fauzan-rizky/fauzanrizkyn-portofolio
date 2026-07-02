@@ -1,6 +1,5 @@
 <script>
 import "../global.css";
-    import Sections from "./sections.svelte";
 </script>
 
 <div id="aboutSection" class="sections">
