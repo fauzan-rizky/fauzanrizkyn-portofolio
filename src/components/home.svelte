@@ -1,12 +1,12 @@
 <script>
     import "../global.css";
-    import svelteLogo from "../lib/images/svelte.png"
+    import svelteLogo from "../lib/images/svelte.webp"
     import linuxLogo from "../lib/images/Tux.svg"
-    import pythonLogo from "../lib/images/python.png"
+    import pythonLogo from "../lib/images/python.webp"
     import gitLogo from "../lib/images/gitlogo.webp"
 
-    import azuma from "../lib/images/azuma.jfif"
-    import fauzan from "../lib/images/ojanhacker.jpg"
+    import azuma from "../lib/images/azuma.webp"
+    import fauzan from "../lib/images/ojanhacker.webp"
     
     import Sections from "./sections.svelte";
 </script>

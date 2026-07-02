@@ -48,7 +48,7 @@
     }
 
     #nethack {
-        background: url("../lib/images/nethack.png");
+        background: url("../lib/images/nethack.webp");
         background-size: cover;
     }
 
