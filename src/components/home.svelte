@@ -25,9 +25,9 @@
                 </div>
             </div>
             <div id="job" class="halfUD">
-                <h3 class="slideLRYellow mainShadow">
-                    (future) Data Scientist
-                </h3>
+                <h5 id="jobTitle" class="slideLRYellow mainShadow">
+                    Informatics Engineering student at Politeknik Negeri Jakarta
+                </h5>
                 <p>Specializations</p>
                 <div class="badge-container">
                     <span id="ds-badge" class="badge-items">Data Science</span>
@@ -56,16 +56,16 @@
 </div>
 <div class="slider">
     <p class="sliderText">
-        COMPUTER_SCIENCE_PORTOFOLIO_COMPUTER_SCIENCE_PORTOFOLIO_COMPUTER_SCIENCE_PORTOFOLIO_COMPUTER_SCIENCE_PORTOFOLIO_
+        PORTOFOLIO_PORTOFOLIO_PORTOFOLIO_PORTOFOLIO_PORTOFOLIO_PORTOFOLIO_PORTOFOLIO_PORTOFOLIO_PORTOFOLIO_PORTOFOLIO_
     </p>
     <p class="sliderText">
-        COMPUTER_SCIENCE_PORTOFOLIO_COMPUTER_SCIENCE_PORTOFOLIO_COMPUTER_SCIENCE_PORTOFOLIO_COMPUTER_SCIENCE_PORTOFOLIO_
+        PORTOFOLIO_PORTOFOLIO_PORTOFOLIO_PORTOFOLIO_PORTOFOLIO_PORTOFOLIO_PORTOFOLIO_PORTOFOLIO_PORTOFOLIO_PORTOFOLIO_
     </p>
 </div>
 
 <style>
     h1,
-    h3,
+    h5,
     h6,
     p {
         width: fit-content;
@@ -120,7 +120,7 @@
     #Home {
         display: flex;
         width: 75%;
-        height: 65%;
+        height: 75%;
 
         max-width: 1440px;
         max-height: 810px;
@@ -139,6 +139,10 @@
     #job {
         display: flex;
         flex-direction: column;
+    }
+    
+    #jobTitle {
+        font-weight: 600;
     }
 
     #profile-container {

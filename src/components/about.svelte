@@ -20,8 +20,11 @@ import "../global.css";
 
 <style>
     #aboutSection {
-        height: fit-content;
+        height: 40vh;
         padding: 0 0 5% 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     #about {
         width: 75%;
