@@ -62,7 +62,7 @@
         justify-content: center;
         transition: all 0.5s ease-out;
         padding: 5px;
-        border: 2px solid rgb(0, 255, 242);
+        border: 2px solid var(--secondaryColor);
     }
 
     .projects-bg {
@@ -83,7 +83,7 @@
 
     .projects-title {
         font-weight: 700;
-        color: rgb(0, 255, 242);
+        color: var(--secondaryColor);
     }
 
     .projects-entry:hover {
