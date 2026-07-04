@@ -77,7 +77,7 @@
     width: 100%;
     height: fit-content;
     text-align: center;
-    color: var(--mainColor);
+    color: var(--secondaryColor);
     font-size: 20px;
     padding-bottom: 30px;
 }
