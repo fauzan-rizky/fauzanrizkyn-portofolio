@@ -64,17 +64,24 @@
     h1 {
         padding: 10px 0 10px 0;
     }
+
+    #projects {
+        height: fit-content;
+    }
     #projects-front {
         width: 75%;
         height: 100%;
 
         max-width: 1440px;
+        padding: 50px 0 50px 0;
     }
 
     .projects-container {
         display: grid;
         align-items: center;
         justify-content:space-around;
+        align-content: space-between;
+        row-gap: 50px;
         grid-template-columns: repeat(3, auto);
         height: fit-content;
     }
@@ -133,7 +140,7 @@
     }
 
     .empty-projects {
-        opacity: 1;
+        display: none;
     }
 
     #nethack {

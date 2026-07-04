@@ -8,7 +8,7 @@
 		VanillaTilt.init(elements, {
 			max: 10, // sesuai data-tilt-max="5" kamu
 			scale: 1, // sesuai data-tilt-scale="1" kamu
-			reverse: true,
+			reverse: false,
 		});
 	});
 	let { children } = $props();
