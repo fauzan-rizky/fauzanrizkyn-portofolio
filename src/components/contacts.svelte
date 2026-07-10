@@ -1,39 +1,7 @@
 <div id="contacts" class="sections">
 <h1>get to know me and collaborate</h1>
-<a class="email" href="mailto:fauzan.rizky.naufal@gmail.com"><h5>
-    fauzan.rizky.naufal@gmail.com
-</h5></a>
-
-<div class="contacts-container">
-<a target="_blank" href="https://www.instagram.com/fauzanrizkyn_/">
-<span class="contacts-items">
-    Instagram
-</span>
-</a>
-<a target="_blank" href="https://open.spotify.com/user/31bepk3hehswxyz35dizjhpz6344">
-<span class="contacts-items">
-    Spotify
-</span>
-</a>
-<a target="_blank" href="https://steamcommunity.com/id/naoto155/">
-<span class="contacts-items">
-    Steam
-</span>
-</a>
-
-<a target="_blank" href="https://discordapp.com/users/709409733496275006">
-<span class="contacts-items">
-    Discord
-</span>
-</a>
-<a target="_blank" href="https://github.com/fauzan-rizky">
-<span class="contacts-items">
-    Github
-</span>
-</a>
 
 
-</div>
 </div>
     <p class="footer">©️ 2026 https://fauzanrizkyn.vercel.dev</p>
 <style>
