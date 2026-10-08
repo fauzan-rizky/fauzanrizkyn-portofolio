@@ -1,3 +1,7 @@
+<script>
+import "../fonts.css";
+</script>
+
 <div id="contacts" class="sections">
 <h1>get to know me and collaborate</h1>
 
@@ -23,11 +27,10 @@
 .contacts-items {
     display: inline-block;
     padding: 6px 12px;
-    border: 3px solid var(--mainColor);          
-    font-size: 1.1rem;       
+    border: 3px solid var(--mainColor);
     font-weight: 700;
-    color: var(--secondaryColor);            
-    white-space: nowrap;        
+    color: var(--secondaryColor);
+    white-space: nowrap;
 }
 
 .email {
@@ -46,7 +49,6 @@
     height: fit-content;
     text-align: center;
     color: var(--secondaryColor);
-    font-size: 20px;
     padding-bottom: 30px;
 }
 </style>

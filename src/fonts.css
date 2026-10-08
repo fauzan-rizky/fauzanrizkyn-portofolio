@@ -1,0 +1,115 @@
+/* ============================================================
+   fonts.css — Centralized adaptive typography
+   Rujukan: 1920px (1080p). Semua nilai vw = px / 1920 * 100,
+   jadi di 1080p hasilnya pixel-perfect dengan desain awal.
+   Di bawah 720px dipakai nilai px fixed biar tetap kebaca.
+   ============================================================ */
+
+/* ---------- Base (skala proporsional terhadap lebar layar) ---------- */
+
+h1 {
+    font-size: 3.3854vw; /* 65px @1080p */
+}
+
+h2 {
+    font-size: 3.125vw; /* 60px @1080p */
+}
+
+h3 {
+    font-size: 2.8646vw; /* 55px @1080p */
+}
+
+h4 {
+    font-size: 2.6042vw; /* 50px @1080p */
+}
+
+h5 {
+    font-size: 2.3438vw; /* 45px @1080p */
+}
+
+h6 {
+    font-size: 2.0833vw; /* 40px @1080p */
+}
+
+p {
+    font-size: 1.8229vw; /* 35px @1080p */
+}
+
+#aboutHello {
+    font-size: 3.125vw; /* 60px @1080p */
+}
+
+.aboutSpan {
+    font-size: 1.5625vw; /* 30px @1080p */
+}
+
+.projects-desc-text {
+    font-size: 1.0417vw; /* 20px @1080p */
+}
+
+.footer {
+    font-size: 1.0417vw; /* 20px @1080p */
+}
+
+.badge-items,
+.contacts-items {
+    font-size: 0.9167vw; /* ~17.6px @1080p */
+}
+
+.badge-techs {
+    font-size: 0.8333vw; /* 16px @1080p */
+}
+
+/* ---------- Mobile (<= 720px): nilai fixed biar tetap kebaca ---------- */
+
+@media (max-width: 720px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 26px;
+    }
+
+    h4 {
+        font-size: 24px;
+    }
+
+    h5 {
+        font-size: 20px;
+    }
+
+    h6 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    #aboutHello {
+        font-size: 28px;
+    }
+
+    .aboutSpan {
+        font-size: 15px;
+    }
+
+    .projects-desc-text,
+    .footer {
+        font-size: 12px;
+    }
+
+    .badge-items,
+    .contacts-items {
+        font-size: 12px;
+    }
+
+    .badge-techs {
+        font-size: 11px;
+    }
+}

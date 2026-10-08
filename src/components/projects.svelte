@@ -1,3 +1,7 @@
+<script>
+import "../fonts.css";
+</script>
+
 <div id="projects" class="sections">
     <div id="projects-front">
         <h1>Projects</h1>
@@ -113,7 +117,6 @@
     }
 
     .projects-desc-text {
-        font-size: 20px;
         font-weight: 500;
         text-align: justify;
         padding: 3px;
@@ -124,7 +127,6 @@
         padding: 3px 6px;
         margin: 3px 0px 3px 0px;
         border: 3px solid var(--secondaryColor);
-        font-size: 1rem;
         font-weight: 700;
         color: var(--secondaryColor);
         white-space: nowrap;

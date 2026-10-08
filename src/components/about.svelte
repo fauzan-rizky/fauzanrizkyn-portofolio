@@ -1,5 +1,6 @@
 <script>
 import "../global.css";
+import "../fonts.css";
 </script>
 
 <div id="aboutSection" class="sections">
@@ -33,14 +34,12 @@ import "../global.css";
     }
 
     #aboutHello {
-        font-size: 60px;
         margin-right: 0.5%;
         color: var(--mainColor);
         font-weight: 700;
     }
 
     .aboutSpan {
-        font-size: 30px;
         margin: 0;
         padding: 0;
         color: var(--secondaryColor);

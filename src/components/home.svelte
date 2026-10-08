@@ -1,5 +1,6 @@
 <script>
     import "../global.css";
+    import "../fonts.css";
     import svelteLogo from "../lib/images/svelte.webp";
     import linuxLogo from "../lib/images/Tux.svg";
     import pythonLogo from "../lib/images/python.webp";
@@ -14,20 +15,37 @@
 <div id="home" class="sections">
     <div id="Home">
         <div id="Identity" class="halfLR">
-            <div class="halfUD">
+            <div id="profile-mobile-container">
+                <div id="profile-mobile" class="mobile">
+                    <img id="azuma" src={azuma} alt="" />
+                    <img id="fauzan" src={fauzan} alt="" />
+                </div>
+            </div>
+
+            <div class="halfUD name">
                 <h1 class="slideLRYellow mainShadow">FAUZAN RIZKY NAUFAL</h1>
                 <h6 id="barcode" class="slideLRYellow">FAUZAN RIZKY NAUFAL</h6>
-                <p>A.K.A.</p>
+                <p id="aka">A.K.A.</p>
                 <div class="badge-container">
                     <span class="badge-items">Ojan</span>
                     <span class="badge-items">福田 直人 (Fukuda Naoto)</span>
                     <span class="badge-items">刘发谅 (Liu Fa Liang)</span>
                 </div>
             </div>
-            <div id="job" class="halfUD">
+
+            <div id="job" class="halfUD job">
                 <h5 id="jobTitle" class="slideLRYellow mainShadow">
                     Informatics Engineering student at Politeknik Negeri Jakarta
                 </h5>
+                <div id="jobTitle-mobile">
+                    <h5 class="jobpart slideLRYellow mainShadow">
+                        Informatics Engineering student
+                    </h5>
+                    <h5 class="jobpart slideLRYellow mainShadow">at</h5>
+                    <h5 class="jobpart slideLRYellow mainShadow">
+                        Politeknik Negeri Jakarta
+                    </h5>
+                </div>
                 <p>Specializations</p>
                 <div class="badge-container">
                     <span id="ds-badge" class="badge-items">Data Science</span>
@@ -47,7 +65,7 @@
             </div>
         </div>
         <div id="profile-container" class="halfLR">
-            <div id="profile">
+            <div id="profile" class="">
                 <img id="azuma" src={azuma} alt="" />
                 <img id="fauzan" src={fauzan} alt="" />
             </div>
@@ -140,7 +158,7 @@
         display: flex;
         flex-direction: column;
     }
-    
+
     #jobTitle {
         font-weight: 600;
     }
@@ -172,7 +190,7 @@
 
         width: 100%;
         height: 100%;
-        
+
         background-color: var(--mainColor);
     }
 
@@ -239,6 +257,109 @@
 
         100% {
             width: 0%;
+        }
+    }
+
+    @media only screen and (max-width: 720px) {
+        .halfUD {
+            text-align: center;
+        }
+
+        .name {
+            height: 17.5%;
+        }
+
+        .job {
+            height: 32.5%;
+        }
+
+        #barcode,
+        #aka {
+            display: none;
+        }
+        #azuma {
+            display: none;
+        }
+        #profile-container {
+            display: none;
+        }
+
+        .halfLR {
+            width: 100%;
+        }
+
+        .badge-container {
+            display: none;
+        }
+
+        #techs-container {
+            justify-content: center;
+        }
+
+        p {
+            text-align: center;
+            width: 100%;
+        }
+
+        .slideLRYellow {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #jobTitle-mobile {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #jobTitle {
+            display: none;
+        }
+
+        #profile-mobile-container {
+            height: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #profile-mobile {
+            width: 50vw;
+            height: 50vw;
+            max-width: 480px;
+            max-height: 480px;
+
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.1s linear;
+        }
+
+        #profile-mobile:after {
+            content: "";
+            position: absolute;
+            top: 10px;
+            left: 10px;
+
+            width: 100%;
+            height: 100%;
+
+            background-color: var(--mainColor);
+        }
+
+        #profile-mobile:hover {
+            scale: 1.1;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        .jobpart {
+            height: fit-content;
         }
     }
 </style>
