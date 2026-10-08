@@ -163,6 +163,14 @@
         font-weight: 600;
     }
 
+    #jobTitle-mobile {
+        display: none;
+    }
+
+    #profile-mobile-container {
+        display: none;
+    }
+
     #profile-container {
         display: flex;
         justify-content: end;
